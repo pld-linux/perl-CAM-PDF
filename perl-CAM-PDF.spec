@@ -6,7 +6,7 @@
 %define		pdir	CAM
 %define		pnam	PDF
 Summary:	CAM::PDF - PDF manipulation library
-Summary(pl):	CAM::PDF - biblioteka do obróbki plików PDF
+Summary(pl.UTF-8):   CAM::PDF - biblioteka do obrÃ³bki plikÃ³w PDF
 Name:		perl-CAM-PDF
 Version:	1.06
 Release:	1
@@ -33,11 +33,11 @@ specification generously provided by Adobe at
 http://partners.adobe.com/public/developer/pdf/index_reference.html
 (link last checked Oct 2005).
 
-%description -l pl
-Ten pakiet odczytuje i zapisuje dokumenty zgodne ze specyfikacj± PDF
-udostêpnion± przez Adobe pod
+%description -l pl.UTF-8
+Ten pakiet odczytuje i zapisuje dokumenty zgodne ze specyfikacjÄ… PDF
+udostÄ™pnionÄ… przez Adobe pod
 http://partners.adobe.com/public/developer/pdf/index_reference.html
-(odno¶nik sprawdzany ostatnio w pa¼dzierniku 2005).
+(odnoÅ›nik sprawdzany ostatnio w paÅºdzierniku 2005).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
