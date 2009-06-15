@@ -8,14 +8,16 @@
 Summary:	CAM::PDF - PDF manipulation library
 Summary(pl.UTF-8):	CAM::PDF - biblioteka do obróbki plików PDF
 Name:		perl-CAM-PDF
-Version:	1.06
+Version:	1.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CL/CLOTHO/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	4c538b7c8a01e9c3d2e109b8b54cd870
+# Source0-md5:	eca9bec2ec81531535c8fd20c1dd8dd1
+BuildRequires:	perl-Crypt-RC4 >= 2.02
+BuildRequires:	perl-Text-PDF
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl(Getopt::Long) >= 2.0
