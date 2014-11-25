@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CAM
 %define		pnam	PDF
+%include	/usr/lib/rpm/macros.perl
 Summary:	CAM::PDF - PDF manipulation library
 Summary(pl.UTF-8):	CAM::PDF - biblioteka do obróbki plików PDF
 Name:		perl-CAM-PDF
@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 #Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CL/CLOTHO/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	eca9bec2ec81531535c8fd20c1dd8dd1
+URL:		http://search.cpan.org/dist/CAM-PDF/
 BuildRequires:	perl-Crypt-RC4 >= 2.02
 BuildRequires:	perl-Text-PDF
 BuildRequires:	perl-devel >= 1:5.8.0
