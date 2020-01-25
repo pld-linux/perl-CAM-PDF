@@ -4,7 +4,6 @@
 
 %define		pdir	CAM
 %define		pnam	PDF
-%include	/usr/lib/rpm/macros.perl
 Summary:	CAM::PDF - PDF manipulation library
 Summary(pl.UTF-8):	CAM::PDF - biblioteka do obróbki plików PDF
 Name:		perl-CAM-PDF
